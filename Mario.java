@@ -56,9 +56,9 @@ public class Mario
      {
           
           //Mario coming from top
-          if(prevy < pipe.y)
+          if(prevy + h < pipe.y)
           {
-               y = pipe.y - h;
+               y = pipe.y - h - 1;
 
                //Allow Mario to jump off pipe
                numFramesInAir = 0;
