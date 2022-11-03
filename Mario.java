@@ -56,7 +56,7 @@ public class Mario
      {
           
           //Mario coming from top
-          if(prevy + h < pipe.y)
+          if((prevy + h) < pipe.y)
           {
                y = pipe.y - h - 1;
 
